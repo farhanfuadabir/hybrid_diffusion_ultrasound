@@ -38,10 +38,9 @@ logs/
 events.out.tfevents.*
 
 # Dataset and outputs
-data/
 datasets/
 output/
-results/
+
 checkpoints/
 models/
 
