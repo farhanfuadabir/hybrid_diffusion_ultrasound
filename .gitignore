@@ -1,8 +1,16 @@
-data/
-venv/
-results/
-lora_output/
-textual_inversion_output/
+# Ignore all files in data/ and results/
+data/*
+results/*
+lora_output/*
+textual_inversion_output/*
+
+# But keep the directory itself via .gitkeep
+!data/.gitkeep
+!results/.gitkeep
+!lora_output/.gitkeep
+!textual_inversion_output/.gitkeep
+
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
