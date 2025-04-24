@@ -1,4 +1,63 @@
-venv
-results
-lora_output
-textual_inversion_output
+data/
+venv/
+results/
+lora_output/
+textual_inversion_output/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment
+venv/
+env/
+ENV/
+*.env
+*.venv
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# PyTorch and other model checkpoints
+*.ckpt
+*.pth
+*.pt
+
+# TensorBoard logs
+runs/
+logs/
+events.out.tfevents.*
+
+# Dataset and outputs
+data/
+datasets/
+output/
+results/
+checkpoints/
+models/
+
+# Image and video outputs
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.mp4
+*.avi
+
+# Large temporary files
+*.zip
+*.tar
+*.tar.gz
+
+# System files
+.DS_Store
+Thumbs.db
+
+# VSCode / PyCharm settings
+.vscode/
+.idea/
+
+# Others
+*.log
+*.bak
